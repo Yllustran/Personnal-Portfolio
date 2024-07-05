@@ -16,6 +16,7 @@
 
     .h3_contact {
         margin-top: 2em;
+        font-size: 12px;
     }
 
     .p_contact {
@@ -25,16 +26,17 @@
     }
 
     .cards_contact_container {
-        width: 100%;
+        width: 50%;
         display: flex;
         justify-content: center;
-        gap: 5em
+        gap: 1.5em
     }
 
     .cards_contact {
+        width: 100px;
+        height: 80px;
         margin-top: 2em;
-        width: 120px;
-        height: 100px;
+        padding: 0 1.5em;
         border-radius: 8px;
         padding-bottom: 0.5em;
         background: white;
@@ -78,7 +80,7 @@
   
   /* Medium Screen */
 
-@media (min-width: 640px) {
+@media (min-width: 635px) {
 
     .h3_contact {
         margin-top: 2em;
@@ -88,6 +90,18 @@
     .p_contact {
         width: 400px;
         font-size: 0.9em;
+        }
+
+        .cards_contact_container {
+            width: 100%;
+            padding: 0;
+            padding-bottom: 0.5em;
+            
+            gap: 5em
+        }
+        .cards_contact {
+            width: 150px;
+            height: 100px;
         }
 }
 
@@ -101,4 +115,6 @@
         width: 600px;
         font-size: 1em;
     }    
+
+    
 }      
