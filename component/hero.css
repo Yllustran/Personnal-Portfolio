@@ -1,0 +1,120 @@
+
+ /* small screen */
+ @media (min-width: 100px) {
+    .container_hero {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+        gap: 1em;
+        margin-bottom: 5em;
+    }
+    
+    .avatar_hero {
+        width: 350px;
+        height: auto;
+        margin-right: 1em;
+    }
+    .h2_hero {
+    
+        font-size: 26px;
+        margin: 0.5em 1em;
+    }
+    .underline_hero {
+        padding: 0 12px;
+        background-color: #FFBD59;
+        color: #191919 ;
+    }
+
+    .h1_hero{
+        text-transform: uppercase;
+        letter-spacing: -.05em;
+        line-height: .9;
+        font-size: 38px;
+        margin: .05em 1em;
+
+    }
+    .p_hero {
+        font-size: 0.9em;
+        margin: 1em 1em;
+        width: 355px;
+        text-align: left;
+        margin: 2em 0;
+    }
+    
+    .social_container img {
+        margin-top: 20px;
+        margin-right: 4%;
+    }
+
+    .social_container img:hover {
+        border-radius: 8px;
+        z-index: -1;
+        background: repeating-linear-gradient(
+          45deg,
+          #FFBD59,
+          #FFBD59 2px,
+          transparent 2px,
+          transparent 6px
+        );
+        transition: all 0.3s ease;
+ }
+
+
+  /* medium screen */
+
+  @media (min-width: 640px) {
+
+    .container_hero {
+        padding-top: 2em;
+    }
+
+    .avatar_hero{
+        width: 400px;
+
+    }
+
+    .h1_hero {
+        font-size: 42px;
+    }
+
+    .p_hero {
+        font-size: 1em;
+        width: 450px;
+
+    }
+  }
+
+    /* large screen */
+    @media (min-width: 1024px) {
+
+        .container_hero{
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding-top: 4em;
+            text-align: left;
+        }
+
+        .p_hero {
+            width: 500px;
+            margin: 1em 0;
+        }
+
+        .h2_hero {
+            margin-left: 0;
+            margin-top: 2em;
+        
+        }
+
+        .h1_hero {
+            margin-left: 0;
+            font-size: 50px;
+        }
+
+        .container_righ_hero {
+            width: 510px;
+        }
+   }      
+ }
