@@ -1,6 +1,6 @@
 
- /* small screen */
- @media (min-width: 100px) {
+/* small screen */
+@media (min-width: 100px) {
     .container_hero {
         width: 100%;
         text-align: center;
@@ -21,6 +21,7 @@
         font-size: 26px;
         margin: 0.5em 1em;
     }
+
     .underline_hero {
         padding: 0 12px;
         background-color: #FFBD59;
@@ -33,8 +34,9 @@
         line-height: .9;
         font-size: 38px;
         margin: .05em 1em;
-
     }
+}
+
     .p_hero {
         font-size: 0.9em;
         margin: 1em 1em;
@@ -117,4 +119,3 @@
             width: 510px;
         }
    }      
- }

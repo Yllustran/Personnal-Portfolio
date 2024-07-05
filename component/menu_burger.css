@@ -1,68 +1,67 @@
 .header_burger {
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-    cursor: pointer;
-    margin-right: 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+  margin-right: 20px;
 }
-  
+
 .header_burger span {
-    display: block;
-    height: 3px;
-    background-color: white;
-    border-radius: 3px;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+  display: block;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
-  
+
 .header_burger.active span:nth-child(1) {
-    transform: translateY(9px) rotate(45deg);
+  transform: translateY(9px) rotate(45deg);
 }
-  
+
 .header_burger.active span:nth-child(2) {
-    opacity: 0;
+  opacity: 0;
 }
-  
+
 .header_burger.active span:nth-child(3) {
-    transform: translateY(-9px) rotate(-45deg);
+  transform: translateY(-9px) rotate(-45deg);
 }
 @media (max-width: 768px) {
-    .header_burger {
-      display: flex;
-    }
-  
-    .header_right {
-      display: none;
-      flex-direction: column;
-      align-items: center;
-      background-color: #191919;
-      position: absolute;
-      top: 80px;
-      left: 0;
-      width: 100%;
-      margin-right: 10em;
-    }
-  
-    .header_right.active {
-      display: flex;
-    }
-  
-    .header_menu {
-      flex-direction: column;
-      width: 100%;
-      padding-left: 0;
-    }
-  
-    .header_menu li {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .header_link {
-      display: block;
-      width: 100%;
-      margin: 0.3em 0;
-    }
+  .header_burger {
+    display: flex;
   }
-  
+
+  .header_right {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191919;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    margin-right: 10em;
+  }
+
+  .header_right.active {
+    display: flex;
+  }
+
+  .header_menu {
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .header_menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header_link {
+    display: block;
+    width: 100%;
+    margin: 0.3em 0;
+  }
+}

@@ -1,7 +1,6 @@
 
-/* Responsives */
 
- /* xs */
+ /* Small screen */
  @media (min-width: 100px) {
     .container_about {
         text-align: left;
@@ -15,65 +14,63 @@
         color: white;
     }
 
-
-    .h2_about {
-        font-size: 26px;
-        margin: 0.5em 0.5em;
-    }
-
-
     .h1_about{
         text-transform: uppercase;
         letter-spacing: -.05em;
         line-height: .9;
         font-size: 38px;
         margin: .05em 1em;
-
     }
+
+    .h2_about {
+        font-size: 20px;
+        margin: 0.5em 0.5em;
+      }
+
+
     .p_about {
         font-size: 0.9em;
         margin: 1em 1em;
         width: 350px;
     }
-
-  }
+}
   
-  /* sm */
+/* Medium Screen */
 
-  @media (min-width: 640px) {
+@media (min-width: 640px) {
 
     .container_about {
         padding-top: 2em;
     }
     
+    .p_about {
+        font-size: 1em;
+    }
+}
+
+/* Large Screen */
+@media (min-width: 1024px) {
+
+    .container_about {
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 4em;
+        text-align: left;
+    }
 
     .h2_about {
-        font-size: 32px;
+        font-size: 40px;
+        margin: 0.5em 0.4em;
+    }
+
+
+    .container_left_about{
+        margin-left: 6em;
     }
 
     .p_about {
-        font-size: 1em;
-
-    }
-  }
-
-    /* md */
-    @media (min-width: 1024px) {
-        .container_about {
-            flex-flow: row;
-            align-items: center;
-            justify-content: center;;
-            padding-top: 4em;
-            text-align: left;
-        }
-
-
-        .container_left_about{
-            margin-left: 6em;
-        }
-
-        .p_about {
-            font-size: 0.8em;
+        font-size: 0.9em;
     
-        }
-   }      
+    }
+}      
