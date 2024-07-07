@@ -8,12 +8,11 @@
         display: flex;
         flex-flow: column;
         gap: 1em;
-        margin-bottom: 5em;
+        margin-bottom: 2em;
         padding: 2rem;
         background-color: black;
         color: white;
     }
-
     .h1_about{
         text-transform: uppercase;
         letter-spacing: -.05em;
@@ -60,7 +59,7 @@
     }
 
     .h2_about {
-        font-size: 40px;
+        font-size: 35px;
         margin: 0.5em 0.4em;
     }
 

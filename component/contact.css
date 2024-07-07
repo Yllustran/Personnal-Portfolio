@@ -1,120 +1,80 @@
 
-/* Small Screen */
+/* xs - 100px */
 
 @media (min-width: 100px) {
     .container_contact {
-        width: 100%;
         display: flex;
         flex-flow: column;
         align-items: center;
         text-align: center;
-        background-color: #060608;
-        color: #fff;
-        gap: 1em;
-        padding-bottom: 2em;
-    }
-
-    .h3_contact {
-        margin-top: 2em;
-        font-size: 12px;
-    }
-
-    .p_contact {
-        width: 350px;
-        font-size: 0.9em;
-        font-weight: 300;
-    }
-
-    .cards_contact_container {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        gap: 1.5em
-    }
-
-    .cards_contact {
-        width: 100px;
-        height: 80px;
-        margin-top: 2em;
-        padding: 0 1.5em;
-        border-radius: 8px;
-        padding-bottom: 0.5em;
-        background: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        transition: all 0.3s ease;
-    }
-
-    .cards_contact:hover {
-        transform: scale(1.1);
-        background-color: #FFBD59;
-    }
-
-    .cards_contact img {
-        margin-top: 0.5em;
-        width: 30px;
-    }
-
-    .cards_contact p {
         color: black;
-        font-weight: 450;
-    }
-
-    .cards_contact a {
-        text-decoration: none;
-        font-weight: 500;
-        transition: 0.3s;
-        margin-top: 5px;
-        color: black
-    }
-
-    .coffee {
-        padding: 0 12px;
-        background-color: #FFBD59;
-        color: #191919 ;
-        margin-left: 5px;
-    }
-}
-  
-  /* Medium Screen */
-
-@media (min-width: 635px) {
-
-    .h3_contact {
-        margin-top: 2em;
-        font-size: 1.6em;
-    }
-
-    .p_contact {
-        width: 400px;
-        font-size: 0.9em;
+        gap: 1em;
+        width: 100%;
+        }
+        
+        .social_contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
         }
 
-        .cards_contact_container {
-            width: 100%;
-            padding: 0;
-            padding-bottom: 0.5em;
-            
-            gap: 5em
+        .social_contact img{
+            width: 40px;
         }
-        .cards_contact {
-            width: 150px;
-            height: 100px;
+
+        .h3_contact {
+            margin-top: 1em;
         }
-}
-
-/* Large Sreen */
-@media (min-width: 1024px) {
-
-    .container_contact{
-        padding-bottom: 4em;
-    }
-    .p_contact {
-        width: 600px;
-        font-size: 1em;
-    }    
-
     
-}      
+        .p_contact {
+            width: 350px;
+            font-size: 0.9em;
+            font-weight: 300;
+        }
+    
+        .contact_btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 1em;
+            margin-bottom: 2em;
+            transition: transform 0.3s ease-in-out;
+            font-weight: 600;
+          }
+    
+          .contact_btn:hover {
+            opacity: 80%;
+          }
+    
+    }
+      
+    /* sm  - 640px */
+    
+    @media (min-width: 640px) {
+    
+        .h3_contact {
+            margin-top: 2em;
+            font-size: 1.6em;
+        }
+    
+        .p_contact {
+            width: 400px;
+            font-size: 0.9em;
+        }
+    
+    }
+    
+        /* md */
+        @media (min-width: 1024px) {
+            .p_contact {
+                width: 600px;
+                font-size: 1em;
+            }
+    }      
+    
