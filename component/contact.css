@@ -76,5 +76,12 @@
                 width: 600px;
                 font-size: 1em;
             }
+
+                /* md */
+                @media (min-width: 1300px) {
+                    .p_contact {
+                        width: 800px;
+                        font-size: 1.5em;
+                    }
     }      
     
